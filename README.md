@@ -8,9 +8,9 @@ Features:
 - Blurring to reduce noise
 
 Main functions used:
-cv2.VideoCapture(): Accesses webcam feed
-cv2.cvtColor(): Converts frame from BGR to HSV color space
-cv2.inRange(): Creates binary mask for green color detection
-cv2.bitwise_and(): Applies the mask to show green areas only
-cv2.GaussianBlur(): Smoothens image to reduce noise
+- cv2.VideoCapture(): Accesses webcam feed
+- cv2.cvtColor(): Converts frame from BGR to HSV color space
+- cv2.inRange(): Creates binary mask for green color detection
+- cv2.bitwise_and(): Applies the mask to show green areas only
+- cv2.GaussianBlur(): Smoothens image to reduce noise
 
