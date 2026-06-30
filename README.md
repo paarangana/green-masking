@@ -31,6 +31,6 @@ To rigorously test the edge cases of our rule-based HSV masking, we evaluated th
 * **Average Vegetation Health Score:** 22.25%
 * *Finding:* Broadening the color profile captured a significantly higher proportion of crop areas, raising the IoU by **15.14%**. However, background soil shares a near-identical HSV profile with dry, yellowing leaves, creating false positives that dropped the overall pixel accuracy.
 
-### 🏃 How to Run the Dataset Evaluation
+### How to Run the Dataset Evaluation
 1. Navigate to the analysis directory: `cd dataset-analysis`
 2. Run the script: `python green_masking.py`
