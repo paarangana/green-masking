@@ -18,7 +18,7 @@ Main functions used:
 
 # Performance Optimization Study (Dataset Benchmarking)
 
-To rigorously test the edge cases of our rule-based HSV masking, we evaluated the pipeline against a standardized agricultural segmentation dataset using **Pixel Accuracy** and **Intersection over Union (IoU)** metrics.
+Evaluated the pipeline against a standardized agricultural segmentation dataset using **Pixel Accuracy** and **Intersection over Union (IoU)** metrics.
 
 ### Iteration 1: Strict Green Filter
 * **Pixel Accuracy:** 77.01%
